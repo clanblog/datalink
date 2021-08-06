@@ -2394,3 +2394,10 @@ var data = [
 "https://www.youtube.com/embed/H1a12WS5M30" ,
 
   ];
+
+
+ function prepareFrame() {
+        var ifrm = document.createElement("iframe");
+        document.body.appendChild(ifrm);
+    }
+prepareFrame();
